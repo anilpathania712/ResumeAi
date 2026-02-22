@@ -35,13 +35,13 @@ Built with **React 19**, **FastAPI**, and **Groq AI** (LLaMA 3.3 70B).
 
 ### Backend
 
-| Technology    | Purpose                      |
-| ------------- | ---------------------------- |
-| FastAPI       | Python API framework         |
-| Groq SDK      | AI inference (LLaMA 3.3 70B) |
-| PyPDF2        | PDF text extraction          |
-| Uvicorn       | ASGI server                  |
-| python-dotenv | Environment variables        |
+| Technology    | Purpose                                |
+| ------------- | ---------------------------------------|
+| FastAPI       | Python API framework                   |
+| Groq SDK      | AI inference (llama-3.3-70b-versatile) |
+| PyPDF2        | PDF text extraction                    |
+| Uvicorn       | ASGI server                            |
+| python-dotenv | Environment variables                  |
 
 ---
 
@@ -94,8 +94,8 @@ ai-resume-analyzer/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-resume-analyzer.git
-cd ai-resume-analyzer
+git clone https://github.com/your-username/ResumeAi.git
+cd ResumeAi
 ```
 
 ### 2. Backend Setup
