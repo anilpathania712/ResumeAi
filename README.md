@@ -2,7 +2,7 @@
 
 An AI-powered resume analysis tool that scores your resume against Applicant Tracking Systems (ATS), identifies keyword gaps, and provides actionable improvement suggestions — all in seconds.
 
-Built with **React 19**, **FastAPI**, and **Groq AI** (LLaMA 3.3 70B).
+Built with **React 19**, **FastAPI**, and **Groq AI** (LLaMA 3.3 70B-versatile).
 
 ---
 
