@@ -38,7 +38,7 @@ def analyze_resume(text, role):
 
     response = client.chat.completions.create(
         messages=[{"role": "user", "content": prompt}],
-        model="llama-3.1-8b-instant",
+        model="llama-3.3-70b-versatile",
     )
 
     return response.choices[0].message.content
