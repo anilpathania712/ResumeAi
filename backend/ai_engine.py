@@ -30,7 +30,7 @@ def analyze_resume(text, role):
     - suggestion 2
 
     Rewritten Professional Summary:
-    <3-4 professional lines>
+    <2-3 professional lines>
 
     Resume Content:
     {text}
@@ -38,7 +38,7 @@ def analyze_resume(text, role):
 
     response = client.chat.completions.create(
         messages=[{"role": "user", "content": prompt}],
-        model="llama-3.3-70b-versatile",
+        model="llama-3.1-8b-instant",
     )
 
     return response.choices[0].message.content
